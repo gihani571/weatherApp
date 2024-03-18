@@ -1,6 +1,6 @@
 # weatherApp
 
--adads
+- adads
 
 
 [btn](https://www.goolge.com)
