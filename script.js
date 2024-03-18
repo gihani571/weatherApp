@@ -31,7 +31,7 @@ function searchLocation(inputValue) {
       method: 'GET'
   };
 console.log(inputValue);
-  fetch(`http://api.weatherapi.com/v1/forecast.json?key=f9ada6d13d7a4ae8851140240241103&q=${inputValue}&aqi=yes&alerts=yes  `, reop)
+  fetch(`https://api.weatherapi.com/v1/forecast.json?key=f9ada6d13d7a4ae8851140240241103&q=${inputValue}&aqi=yes&alerts=yes  `, reop)
   
       .then(response => response.json())
       .then(data => {
